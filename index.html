@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohd Arshad - Full Stack Developer Portfolio. Specializing in Java, Python, React.js, and modern web development.">
+    <meta name="keywords" content="web developer, full stack developer, java developer, python developer, react developer">
+    <meta name="author" content="Mohd Arshad">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mohd Arshad | Full Stack Developer">
+    <meta property="og:description" content="Passionate Full Stack Developer specializing in modern web applications">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-portfolio-url.com">
+    
+    <title>Mohd Arshad | Full Stack Developer</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles1.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style">
+    
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
+    
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fa-solid fa-code"></i>
+            <span>Arshad's Portfolio</span>
+        </a>
+
+        <nav class="navbar" role="navigation">
+            <a href="#home" class="active" aria-label="Home section">Home</a>
+            <div class="dropdown">
+                <a href="#about" class="dropdown-toggle">About <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="#about">About Me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                </div>
+            </div>
+            <a href="#achievements" aria-label="Achievements section">Achievements</a>
+            <a href="#projects" aria-label="Projects section">Projects</a>
+            <a href="#quote" aria-label="Quote section">Quote</a>
+            <a href="#contact" aria-label="Contact section">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <h3>Hello, It's Me</h3>
+                </div>
+                <h1>Mohd Arshad</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>Final-year B.Tech IT student specializing in developing responsive, user-friendly web applications with a
+                    focus on clean design and performance.</p>
+                <div class="home-buttons">
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/mohd-arshad-156227314" target="_blank" aria-label="LinkedIn profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/MohdArshad-cell" target="_blank" aria-label="GitHub profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Twitter profile">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <a href="asset/Arshad.pdf" class="btn" download aria-label="Download CV">
+                        <i class="fa-solid fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="asset/home1.png" alt="A professional headshot of Mohd Arshad" loading="lazy">
+                <div class="floating-elements">
+                    <div class="floating-icon" style="--delay: 0s">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="floating-icon" style="--delay: 1s">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="floating-icon" style="--delay: 2s">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="floating-icon" style="--delay: 3s">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-img" data-aos="fade-right" data-aos-delay="200">
+                <img src="asset/abou1.png" alt="A photo of Mohd Arshad working" loading="lazy">
+            </div>
+            <div class="about-content" data-aos="fade-left" data-aos-delay="400">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Full Stack Developer!</h3>
+                <p>
+                    I'm a passionate Full Stack Developer with practical experience in building secure, scalable web
+                    applications using Java (JSP, Servlets, JDBC) and Python (Flask). I've developed robust systems with
+                    authentication, data management, and REST APIs. I'm driven by solving real-world problems through clean
+                    architecture, optimized code, and sharp problem-solving skills backed by a strong DSA foundation.
+                    Currently expanding my backend capabilities while building impactful projects.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="600">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">DSA Problems Solved</span>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="700">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="800">
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-label">Resumes Delivered</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-box" data-aos="fade-up" data-aos-delay="100">
+                    <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json" trigger="hover" colors="primary:#0ef"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, Bootstrap, JavaScript(ES6+), React.js, Responsive Design.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="skills-box" data-aos="fade-up" data-aos-delay="200">
+                    <lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover" colors="primary:#0ef"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+                    <h3>Backend Development</h3>
+                    <p>Java (Core, JSP, Servlets), JDBC with MySQL, Python (Flask), RESTful APIs, MVC Architecture, JWT
+                        Authentication (Learning), Spring Boot (Learning).</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="skills-box" data-aos="fade-up" data-aos-delay="300">
+                    <lord-icon src="https://cdn.lordicon.com/abgtphux.json" trigger="hover" colors="primary:#0ef"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+                    <h3>Tools & Platforms</h3>
+                    <p>Eclipse, Apache Tomcat, Git, Overleaf (for resume generation), MySQL Workbench, VS Code, GitHub.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Eclipse</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <h2 class="heading" data-aos="fade-up">Work <span>Experience</span></h2>
+
+            <div class="experience-container">
+                <div class="experience-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="experience-content">
+                        <div class="experience-year">
+                            <i class="fa-solid fa-calendar-days"></i> 
+                            Mar 2025 – Present
+                        </div>
+                        <h3>Trainee – Resume Optimization & Web Application Support</h3>
+                        <h4>AplyEase | Remote</h4>
+                        <ul>
+                            <li>Delivered 500+ high-impact resumes with 80%+ ATS scores for roles in Data Analytics,
+                                Cybersecurity, and Software Engineering.</li>
+                            <li>Advised clients on structuring and deploying portfolio websites using HTML, CSS, JavaScript,
+                                and GitHub Pages.</li>
+                            <li>Utilized ForgeHire and Worded to precisely align resumes with dynamic job postings,
+                                enhancing shortlisting potential.</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span class="experience-tag">Resume Writing</span>
+                            <span class="experience-tag">ATS Optimization</span>
+                            <span class="experience-tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements" id="achievements">
+            <h2 class="heading" data-aos="fade-up">Achievements & <span>Certifications</span></h2>
+
+            <div class="achievements-container">
+                <div class="achievements-box" data-aos="fade-right" data-aos-delay="200">
+                    <h3><i class="fa-solid fa-trophy"></i> Achievements</h3>
+                    <ul>
+                        <li>Solved 50+ DSA problems on LeetCode, showcasing consistent hands-on practice.</li>
+                        <li>Secured 1st Prize in the college-level Code Master Competition among 50+ participants.</li>
+                        <li>Actively progressing through the Striver DSA Roadmap, covering key data structures.</li>
+                    </ul>
+                </div>
+
+                <div class="certifications-box" data-aos="fade-left" data-aos-delay="400">
+                    <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+                    <ul>
+                        <li>Responsive Web Design - <strong>freeCodeCamp</strong></li>
+                        <li>HTML & CSS - <strong>Great Learning</strong></li>
+                        <li>Robotics and Innovation - <strong>Kalam Pragati 2025</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2 class="heading" data-aos="fade-up">Latest <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="project-slide active">
+                    <div class="project-image-container">
+                        <img src="asset/pr1.png" alt="Java Note-Taking Web Application Screenshot" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">JSP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Servlets</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Java Note-Taking Web Application</h3>
+                        <div class="project-description">
+                            <p><strong>Overview:</strong> Developed a secure note-taking web application with full
+                                authentication and session management using Java Servlets.</p>
+                            <p><strong>Features:</strong> Enabled users to register, log in, and perform full CRUD
+                                operations via JSP, with data persistence through JDBC and MySQL.</p>
+                            <p><strong>Security:</strong> Implemented form validation, password protection, and role-based
+                                access control for authenticated users.</p>
+                            <p><strong>Deployment:</strong> Deployed locally using Eclipse IDE and Apache Tomcat, showcasing
+                                core backend development skills in Java.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn" target="_blank" aria-label="Visit Java Note-Taking Application">
+                                <i class="fa-solid fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/MohdArshad-cell/Batch2_Project.git" class="btn project-btn secondary" target="_blank" aria-label="View source code">
+                                <i class="fa-brands fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-slide">
+                    <div class="project-image-container">
+                        <img src="asset/pr2.jpg" alt="Line-Following Bot with Object Detection Screenshot" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">Raspberry Pi</span>
+                                <span class="tech-tag">Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Line-Following Bot with Object Detection</h3>
+                        <div class="project-description">
+                            <p><strong>Overview:</strong> Built an autonomous lane-following bot with 90%+ accuracy using
+                                HSV color space and edge detection.</p>
+                            <p><strong>Tech Stack:</strong> Programmed real-time motion control via Raspberry Pi using GPIO,
+                                camera input, and serial communication.</p>
+                            <p><strong>Computer Vision:</strong> Integrated OpenCV for object tracking and dynamic path
+                                adjustments, enabling responsive navigation.</p>
+                            <p><strong>Outcome:</strong> Successfully completed full arena traversal, demonstrating robust
+                                embedded system integration and control precision.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn" target="_blank" aria-label="View Line-Following Bot Demo">
+                                <i class="fa-solid fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="btn project-btn secondary" target="_blank" aria-label="View source code">
+                                <i class="fa-brands fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-slide">
+                    <div class="project-image-container">
+                        <img src="asset/pr3.png" alt="Personal Portfolio Website Screenshot" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <div class="project-description">
+                            <p><strong>Overview:</strong> Developed a fully responsive personal portfolio website using
+                                HTML, CSS, and vanilla JavaScript to showcase skills, experience, and projects.</p>
+                            <p><strong>Features:</strong> Integrated light/dark mode toggle, interactive project slider, and
+                                scroll-triggered animations via the Intersection Observer API.</p>
+                            <p><strong>Design:</strong> Enhanced user interface with animated backgrounds using particle.js,
+                                Lordicon assets, and a timeline section for a professional look and feel.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn project-btn" target="_blank" aria-label="View Portfolio Website">
+                                <i class="fa-solid fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="btn project-btn secondary" target="_blank" aria-label="View source code">
+                                <i class="fa-brands fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-nav">
+                    <button class="slider-btn" id="prev-btn" aria-label="Previous project">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="slider-btn" id="next-btn" aria-label="Next project">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-section" id="quote">
+            <div class="quote-box">
+                <i class="fa-solid fa-quote-left open-quote"></i>
+                <p>"The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't
+                    settle."</p>
+                <p class="author">- Steve Jobs</p>
+                <i class="fa-solid fa-quote-right close-quote"></i>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading" data-aos="fade-up">Contact <span>Me!</span></h2>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>arshadmohd8574@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 7887096421</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/your_unique_id" method="POST" class="contact-form" id="contact-form" data-aos="fade-left" data-aos-delay="400">
+                    <div class="input-box">
+                        <div class="input-group">
+                            <input type="text" name="name" id="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-group">
+                            <input type="tel" name="phone" id="phone">
+                            <label for="phone">Mobile Number</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="subject" id="subject" required>
+                            <label for="subject">Email Subject</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading">
+                            <i class="fa-solid fa-spinner fa-spin"></i>
+                            Sending...
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by Mohd Arshad | All Rights Reserved.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/mohd-arshad-156227314" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/MohdArshad-cell" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" target="_blank" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Back to top">
+                <i class="fa-solid fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script1.js"></script>
+</body>
+
+</html>
