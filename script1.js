@@ -1,4 +1,4 @@
-
+// JavaScript Start Here
 
 // Run the main script after the HTML document is parsed
 document.addEventListener('DOMContentLoaded', () => {
