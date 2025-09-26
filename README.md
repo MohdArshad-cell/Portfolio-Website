@@ -186,7 +186,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Mohd Arshad**
 - Full Stack Developer
 - B.Tech IT Student
-- Passionate about modern web development
+- Passionate about modern web application development
 
 ---
 
